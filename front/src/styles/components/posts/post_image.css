@@ -1,0 +1,46 @@
+.updatePostImageDiv {
+  margin-bottom: 30px;
+}
+
+.updatePostImageTitleDiv {
+  margin-bottom: 30px;
+}
+
+.updatePostImageInputDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 5%;
+}
+
+.updatePostImageInputDiv__label {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.updatePostImageInputDiv__file {
+  border-radius: 25px;
+  background-color: #fff;
+  color: black;
+}
+
+.updatePostImageButtonDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.updatePostImageButtonDiv__button {
+  height: 50px;
+  width: 280px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #D1515A;
+  border-style: none;
+  transition: .3s;
+}
+
+.updatePostImageButtonDiv__button:hover {
+  background-color: #fff;
+  transition: .3s;
+}

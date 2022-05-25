@@ -1,0 +1,42 @@
+.profilePostImageInputDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.updateProfileImageTitleDiv {
+  margin-bottom: 30px;
+}
+
+.profilePostImageInputDiv__label {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.profilePostImageInputDiv__file {
+  border-radius: 25px;
+  background-color: #fff;
+  color: black;
+}
+
+.profilePostImageButtonDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.profilePostImageButtonDiv__button {
+  height: 50px;
+  width: 280px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #D1515A;
+  transition: .3s;
+  border-style: none;
+  margin-top: 15px;
+}
+
+.profilePostImageButtonDiv__button:hover {
+  background-color: #fff;
+  transition: .3s;
+}

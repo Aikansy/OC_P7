@@ -1,0 +1,15 @@
+#signHeader {
+  border-bottom: 1px solid #D1515A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.siteLogo {
+  height: 60px;
+  width: 60px;
+}
+
+.siteTitle:hover {
+  transition: 0.3s;
+  color: #D1515A;
+}
