@@ -1,6 +1,6 @@
 # GROUPIX - Groupomania internal social network
 
-_In order to run this project, you will need a database using **mysql** (for sequelize) and create a <named database>._
+_In order to run this project, you will need a database using **mysql** (for sequelize) and create a **named database**._
 
 ## CLONE THE PROJECT
 
@@ -8,11 +8,11 @@ _In order to run this project, you will need a database using **mysql** (for seq
 git clone https://github.com/Aikansy/OC_P7
 ```
 
-## BACK-END PROCEDURE
+## BACK-END PROCESS
 
 ### Install dependencies
 
-_go to **project directory/back** folder_
+_(terminall) Go to **OC_P7/back** folder, then..._
 
 ```
 npm install
@@ -20,7 +20,7 @@ npm install
 
 ### Create needed file(s)
 
-_Create **config.env** file in **back/config/** with in it:_
+_Create **config.env** file in **OC_P7/back/config/** with in it:_
 
 ```
 PORT=<the desired port for the back-end server except 3000>
@@ -34,17 +34,17 @@ ROLE_TOKEN=<element to include in the password during registration to allocate t
 
 ### Start the back-end server
 
-_go to **project directory/back folder**_
+_(terminall) Return to **OC_P7/back** folder, then_
 
 ```
 nodemon server
 ```
 
-## FRONT-END PROCEDURE
+## FRONT-END PROCESS
 
 ### Install dependencies
 
-_go to **project directory/front** folder_
+_go to **OC_P7/front** folder_
 
 ```
 npm install
@@ -52,7 +52,7 @@ npm install
 
 ### Start the front-end server
 
-_go to **project directory/front folder**_
+_go to **OC_P7/front folder**_
 
 ```
 yarn start
