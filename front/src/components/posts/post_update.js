@@ -45,50 +45,51 @@ export const PostUpdate = (props) => {
   };
 
   return (
-    <form onSubmit={handleModals} id="updatePostForm">
+    <div id="updatePostForm">
       <UpdatePostImage post={post} />
+      <form onSubmit={handleModals}>
+        <div className="updatePostTitleDiv">
+          <h3>MODIFIER LE POST</h3>
+        </div>
 
-      <div className="updatePostTitleDiv">
-        <h3>MODIFIER LE POST</h3>
-      </div>
+        <div className="updatePostInputDiv">
+          <label htmlFor="postTitle" className="updatePostInputDiv__label">
+            Titre
+          </label>
+          <input
+            type="text"
+            name="postTitle"
+            id="postTitle"
+            className="updatePostInputDiv__input"
+            onChange={(e) => setPostTitle(e.target.value)}
+            value={postTitle}
+          />
+          <p id="postTitleErrorMsg"></p>
+        </div>
 
-      <div className="updatePostInputDiv">
-        <label htmlFor="postTitle" className="updatePostInputDiv__label">
-          Titre
-        </label>
-        <input
-          type="text"
-          name="postTitle"
-          id="postTitle"
-          className="updatePostInputDiv__input"
-          onChange={(e) => setPostTitle(e.target.value)}
-          value={postTitle}
-        />
-        <p id="postTitleErrorMsg"></p>
-      </div>
+        <div className="updatePostInputDiv">
+          <label htmlFor="postMessage" className="updatePostInputDiv__label">
+            Message
+          </label>
+          <input
+            type="text"
+            name="postMessage"
+            id="postMessage"
+            className="updatePostInputDiv__input"
+            onChange={(e) => setPostMessage(e.target.value)}
+            value={postMessage}
+          />
+          <p id="postMessageErrorMsg"></p>
+        </div>
 
-      <div className="updatePostInputDiv">
-        <label htmlFor="postMessage" className="updatePostInputDiv__label">
-          Message
-        </label>
-        <input
-          type="text"
-          name="postMessage"
-          id="postMessage"
-          className="updatePostInputDiv__input"
-          onChange={(e) => setPostMessage(e.target.value)}
-          value={postMessage}
-        />
-        <p id="postMessageErrorMsg"></p>
-      </div>
-
-      <div className="updatePostButtonDiv">
-        <input
-          type="submit"
-          value="Poster"
-          className="updatePostButtonDiv__button"
-        ></input>
-      </div>
-    </form>
+        <div className="updatePostButtonDiv">
+          <input
+            type="submit"
+            value="Poster"
+            className="updatePostButtonDiv__button"
+          ></input>
+        </div>
+      </form>
+    </div>
   );
 };

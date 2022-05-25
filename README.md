@@ -1,7 +1,7 @@
 # GROUPIX - Groupomania internal social network
 
 _In order to run this project, you will need a database using **mysql** (for sequelize) and create a **named database**._
-_To access the history, you can go to_ [OC_P7_groupomania]https://github.com/Aikansy/OC_P7_groupomania [^1]
+_To access the history, you can go to_ [OC_P7_groupomania](https://github.com/Aikansy/OC_P7_groupomania) [^1]
 
 Stacks
 
